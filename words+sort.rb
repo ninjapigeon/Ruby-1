@@ -1,6 +1,6 @@
 puts "enter a word, as many as you like. when done, just press return on an empty line!"
 words = []
-until words.last == '' do
+until words.last == ''
   word = gets
   return if word.length == 0
   words << word.chomp

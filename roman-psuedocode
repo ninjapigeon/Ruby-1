@@ -1,0 +1,18 @@
+num.chomp.to_i = (1240)
+Mz = num / 1000 = 1
+if Mz >0
+  num = num - 1000* Mz
+
+
+
+********deprecate method***
+take (val) and (num) and (count)
+if (val) > 0
+	(num) = num - val * count.
+return (num)
+*****
+(val) = Mz, Dz, Cz, Lz, Xz, Vz, Iz
+(Count) = 1000,500,100,50,10,5,1
+(num) = user entered value. Integer, chomped.
+
+****
