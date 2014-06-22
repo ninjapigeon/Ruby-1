@@ -1,6 +1,7 @@
 puts "What number would you like the roman equivalent for?"
 numer = gets.chomp.to_i
 #for future - if statement clarifying it's not a float, nor letters/symbols.
+#add recursion.rb here to verify.
 
 Mx = 1000
 Dx = 500
@@ -31,5 +32,18 @@ puts Xz
 puts Vz
 puts Iz
 
-# Roma[1000,500,100,50,10,5,1]
-# Xz = numer - Roma[3]...
+# RoNum [M,D,C,L,X,V,I]
+# roma[1000,500,100,50,10,5,1]
+# counting[]
+#
+# roma.each do |pointer|
+# // take numer, remove last iteration, update var (numer).
+#  if numer % roma = 0
+#     pointer++
+#     counting.pointer = numer / roma.pointer
+#  else
+#     puts roma[pointer]*RoNum[pointer] // two dimensional array for this? One is dec, one roman
+#  end
+# end
+#
+#
